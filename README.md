@@ -1,9 +1,9 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404 Not Found</h1>
+<h1 align="center">Chat App</h1>
 
 <div align="center">
-   Chat APP UI 
+   Chat App UI Built with HTML and CSS
 </div>
 
 
