@@ -34,6 +34,7 @@ header {
   align-items: center;
   background-color: var(--white);
   box-shadow: var(--shadow-md);
+  padding-right: 25px;
 }
 .logo-navbar {
   margin-right: auto;
@@ -49,12 +50,7 @@ header {
   display: flex;
   align-items: center;
 }
-.nav__links a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  text-decoration: none;
-  color: var(--black);
-}
+
 .nav__links li {
   padding: 0 10px;
 }
@@ -304,9 +300,7 @@ h4 {
 .normal::placeholder {
   font-style: normal;
 }
-input.normal {
-  width: 30rem;
-}
+
 .flex-send {
   border-top: 1px solid var(--grey);
   justify-content: space-between;
@@ -335,8 +329,5 @@ input.normal {
   }
   .big-box {
     width: 80%;
-  }
-  input.normal {
-    width: auto;
   }
 }

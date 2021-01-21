@@ -14,7 +14,7 @@
 
 <div style="text-align: center">
 Desktop View <br>
-<a href="https://imgur.com/PKJzkLQ"><img src="https://i.imgur.com/PKJzkLQ.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/LbQAwiB"><img src="https://imgur.com/LbQAwiB.jpg" title="source: imgur.com" /></a>
 </div>
 
 <div style="text-align: center">
