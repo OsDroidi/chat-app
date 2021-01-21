@@ -21,6 +21,10 @@ Desktop View <br>
 Mobile View <br>
 <a href="https://imgur.com/4Eccmb3"><img src="https://i.imgur.com/4Eccmb3.jpg" title="source: imgur.com" /></a>
 </div>
+<div style="text-align: center">
+Reference base <br>
+<a href="https://imgur.com/JLkAzSD"><img src="https://imgur.com/JLkAzSD.jpg" title="source: imgur.com" /></a>
+</div>
 
 
 
@@ -36,4 +40,7 @@ Mobile View <br>
 - Box shadow
 - CSS variables
 - Transition  
+
+
+Live on [vercel](https://chat-app-taupe-iota.vercel.app/)
 
