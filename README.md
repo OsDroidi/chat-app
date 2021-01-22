@@ -12,16 +12,16 @@
 
 ## Overview
 
-<div style="text-align: center">
+<div>
 Desktop View <br>
-<a href="https://imgur.com/LbQAwiB"><img src="https://imgur.com/LbQAwiB.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/6DrIbOf"><img src="https://imgur.com/6DrIbOf.jpg" title="source: imgur.com" /></a>
 </div>
 
-<div style="text-align: center">
+<div>
 Mobile View <br>
 <a href="https://imgur.com/4Eccmb3"><img src="https://i.imgur.com/4Eccmb3.jpg" title="source: imgur.com" /></a>
 </div>
-<div style="text-align: center">
+<div>
 Reference base <br>
 <a href="https://imgur.com/JLkAzSD"><img src="https://imgur.com/JLkAzSD.jpg" title="source: imgur.com" /></a>
 </div>
@@ -39,8 +39,11 @@ Reference base <br>
 - Media query
 - Box shadow
 - CSS variables
-- Transition  
+- Transition
+- Scrollbar div
 
+for the icons i used [Font Awesome](https://fontawesome.com/)
+for the profile photos [Random user generator](https://randomuser.me/)
 
 Live on [vercel](https://chat-app-taupe-iota.vercel.app/)
 
