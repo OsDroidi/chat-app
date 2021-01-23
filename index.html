@@ -1,298 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- displays site properly based on user's device -->
-      <title>Chat App</title>
-      <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <!-- Navbar component -->
-      <header>
-         <a class="logo-navbar" href="#"><img class="logo-style" src="./icons/logo.png" alt="logo" /></a>
-         <nav>
-            <ul class="nav__links">
-               <li>
-                  <a href="#"><img class="icon-style" src="./icons/envelope.png" alt="envelope" /></a>
-               </li>
-               <li class="bell-bubble">
-                  <a href="#"><img class="icon-style" src="./icons/bell.png" alt="bell" /></a>
-               </li>
-               <li>
-                  <a href="#"><img class="user-avatar" src="./images/user.jpg" alt="user1" /></a>
-               </li>
-               <li>
-                  <h3>
-                     Bold Masi
-                     <span><a href="#"><img class="arrow" src="./icons/chevron-down.png" alt="arrow" /></a></span>
-                  </h3>
-               </li>
-            </ul>
-         </nav>
-      </header>
-      <!-- Sidebar component -->
-      <div class="side">
-         <div class="hover-sidebar">
-            <div class="sidebaricon-box">
-               <img class="icon-style" src="./icons/all.png" alt="icon" />
-            </div>
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- displays site properly based on user's device -->
+   <title>Chat App</title>
+   <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- Navbar component -->
+   <header>
+      <a class="logo-navbar" href="#"><img class="logo-style" src="./icons/logo.png" alt="logo" /></a>
+      <nav>
+         <ul class="nav__links">
+            <li>
+               <a href="#"><img class="icon-style" src="./icons/envelope.png" alt="envelope" /></a>
+            </li>
+            <li class="bell-bubble">
+               <a href="#"><img class="icon-style" src="./icons/bell.png" alt="bell" /></a>
+            </li>
+            <li>
+               <a href="#"><img class="user-avatar nav" src="./images/user.jpg" alt="user1" /></a>
+            </li>
+            <li>
+               <h3 class="user-nav">
+                  Bold Masi
+                  <span><a href="#"><img class="arrow" src="./icons/chevron-down.png" alt="arrow" /></a></span>
+               </h3>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   <!-- Sidebar component -->
+   <div class="side">
+      <div class="hover-sidebar">
+         <div class="sidebaricon-box">
+            <img class="icon-style" src="./icons/all.png" alt="icon" />
          </div>
-         <div class="hover-sidebar active-icon">
-            <div class="sidebaricon-box">
-               <img class="icon-style" src="./icons/chat.png" alt="icon" />
-            </div>
+      </div>
+      <div class="hover-sidebar active-icon">
+         <div class="sidebaricon-box">
+            <img class="icon-style" src="./icons/chat.png" alt="icon" />
          </div>
-         <div class="hover-sidebar">
-            <div class="sidebaricon-box">
-               <img class="icon-style" src="./icons/share.png" alt="icon" />
-            </div>
+      </div>
+      <div class="hover-sidebar">
+         <div class="sidebaricon-box">
+            <img class="icon-style" src="./icons/share.png" alt="icon" />
          </div>
-         <div class="hover-sidebar">
-            <div class="sidebaricon-box">
-               <img class="icon-style" src="./icons/robot.png" alt="icon" />
-            </div>
+      </div>
+      <div class="hover-sidebar">
+         <div class="sidebaricon-box">
+            <img class="icon-style" src="./icons/robot.png" alt="icon" />
          </div>
-         <div class="hover-sidebar">
-            <div class="sidebaricon-box">
-               <img class="icon-style" src="./icons/wifi.png" alt="icon" />
-            </div>
+      </div>
+      <div class="hover-sidebar">
+         <div class="sidebaricon-box">
+            <img class="icon-style" src="./icons/wifi.png" alt="icon" />
          </div>
-         <div>
-            <div class="sidebaricon-box">
-               <img class="icon-style" src="./icons/ellipsis.png" alt="icon" />
+      </div>
+      <div>
+         <div class="sidebaricon-box">
+            <img class="icon-style" src="./icons/ellipsis.png" alt="icon" />
+         </div>
+      </div>
+   </div>
+   <div class="flex-container">
+      <div class="col">
+         <!-- Contacts list component -->
+         <div class="contacts-component">
+            <!-- Search bar -->
+            <h3 class="search-text">Search Messages</h3>
+            <div class="search-box">
+               <form>
+                  <a href="#"><img class="fa fa-search" src="./icons/search.png" alt="icon"></a>
+                  <input type="text" placeholder="Type & Hit Enter ...">
+               </form>
+            </div>
+            <hr class="hr-search">
+            <div class="flex-text">
+               <h3>Recent Talks</h3>
+               <h3>All <span><a href="#"><img class="arrow" src="./icons/chevron-down.png" alt="arrow" /></a></span>
+               </h3>
+            </div>
+            <!-- Contacts list component -->
+            <div class="contact-list-container">
+               <div class="scroller">
+                  <div class="flex-user">
+                     <div class="col-user">
+                        <div class="user-avatar-bubble -large -online-bubble online">
+                           <img class="user-avatar" src="./images/user1.jpg" alt="user-avatar" />
+                        </div>
+                     </div>
+                     <div class="text-box">
+                        <h4>Hero Alom</h4>
+                        <h4>Can you please send me</h4>
+                        <p>02:19 pm</p>
+                     </div>
+                  </div>
+                  <div class="flex-user">
+                     <div class="col-user">
+                        <div class="user-avatar-bubble -large -online-bubble out">
+                           <img class="user-avatar" src="./images/user2.jpg" alt="user-avatar" />
+                        </div>
+                     </div>
+                     <div class="text-box">
+                        <h4>Kevin Peterson</h4>
+                        <h4>Can you please send me</h4>
+                        <p>02:19 pm</p>
+                     </div>
+                  </div>
+                  <div class="flex-user active-chat">
+                     <div class="col-user">
+                        <div class="user-avatar-bubble -large -online-bubble online">
+                           <img class="user-avatar" src="./images/user3.jpg" alt="user-avatar" />
+                        </div>
+                     </div>
+                     <div class="text-box">
+                        <h4>Jason Roy</h4>
+                        <h4>Can you please send me</h4>
+                        <p>02:19 pm</p>
+                     </div>
+                  </div>
+                  <div class="flex-user">
+                     <div class="col-user">
+                        <div class="user-avatar-bubble -large -online-bubble orange">
+                           <img class="user-avatar" src="./images/user4.jpg" alt="user-avatar" />
+                        </div>
+                     </div>
+                     <div class="text-box">
+                        <h4>Peterson song</h4>
+                        <h4>Can you please send me</h4>
+                        <p>02:19 pm</p>
+                     </div>
+                  </div>
+                  <div class="flex-user">
+                     <div class="col-user">
+                        <div class="user-avatar-bubble -large -online-bubble busy">
+                           <img class="user-avatar" src="./images/user5.jpg" alt="user-avatar" />
+                        </div>
+                     </div>
+                     <div class="text-box">
+                        <h4>Kevin Robat</h4>
+                        <h4>Can you please send me</h4>
+                        <p>02:19 pm</p>
+                     </div>
+                  </div>
+                  <div class="flex-user">
+                     <div class="col-user">
+                        <div class="user-avatar-bubble -large -online-bubble online">
+                           <img class="user-avatar" src="./images/user6.jpg" alt="user-avatar" />
+                        </div>
+                     </div>
+                     <div class="text-box">
+                        <h4>Lisa Romi</h4>
+                        <h4>Can you please send me</h4>
+                        <p>02:19 pm</p>
+                     </div>
+                  </div>
+                  <div class="flex-user">
+                     <div class="col-user">
+                        <div class="user-avatar-bubble -large -online-bubble online">
+                           <img class="user-avatar" src="./images/user7.jpg" alt="user-avatar" />
+                        </div>
+                     </div>
+                     <div class="text-box">
+                        <h4>Hero Alom</h4>
+                        <h4>Can you please send me</h4>
+                        <p>02:19 pm</p>
+                     </div>
+                  </div>
+                  <div class="flex-user">
+                     <div class="col-user">
+                        <div class="user-avatar-bubble -large -online-bubble online">
+                           <img class="user-avatar" src="./images/user8.jpg" alt="user-avatar" />
+                        </div>
+                     </div>
+                     <div class="text-box">
+                        <h4>Hero Alom</h4>
+                        <h4>Can you please send me</h4>
+                        <p>02:19 pm</p>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
-      <div class="flex-container">
-         <div class="col">
-            <!-- Contacts list component -->
-            <div class="contacts-component">
-               <!-- Search bar -->
-               <h3 class="search-text">Search Messages</h3>
-               <div class="search-box">
-                  <form>
-                     <a href="#"><img class="fa fa-search" src="./icons/search.png" alt="icon"></a>
-                     <input type="text" placeholder="Type & Hit Enter ...">
+      <!-- Chat List component -->
+      <div class="col-1">
+         <div class="container-chat ">
+            <div class="flex-info-nav">
+               <img class="user-avatar" src="./images/user3.jpg" alt="user-avatar">
+               <h3 class="user-name">Jason Roy</h3>
+            </div>
+            <div class="scorller-chat">
+               <div class="flex-chat-box">
+                  <div class="img-box">
+                     <img class="user-avatar" src="./images/user3.jpg" alt="user-avatar">
+                  </div>
+                  <div class="big-box">
+                     <h5 class="chat-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam
+                        quis
+                        dolor dolorum quae consectetur dignissimos provident
+                     </h5>
+                     <p class="time">10 min ago <span><img class="check-icon" src="./icons/check.png" alt="icon"></span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex-chat-box-right">
+                  <div class="big-box">
+                     <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia
+                        magnam
+                        quis dolor dolorum quae consectetur dignissimos provident
+                     </h5>
+                     <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
+                              alt="icon"></span> </p>
+                  </div>
+                  <div class="img-box-right">
+                     <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
+                  </div>
+               </div>
+               <div class="flex-chat-box-right">
+                  <div class="big-box">
+                     <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia
+                        magnam
+                        quis dolor dolorum quae consectetur dignissimos provident
+                     </h5>
+                     <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
+                              alt="icon"></span> </p>
+                  </div>
+                  <div class="img-box-right">
+                     <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
+                  </div>
+               </div>
+               <div class="flex-chat-box">
+                  <div class="img-box">
+                     <img class="user-avatar" src="./images/user3.jpg" alt="user-avatar">
+                  </div>
+                  <div class="big-box">
+                     <h5 class="chat-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam
+                        quis
+                        dolor dolorum quae consectetur dignissimos provident
+                     </h5>
+                     <p class="time">10 min ago <span><img class="check-icon" src="./icons/check.png" alt="icon"></span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex-chat-box-right">
+                  <div class="big-box">
+                     <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia
+                        magnam
+                        quis dolor dolorum quae consectetur dignissimos provident
+                     </h5>
+                     <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
+                              alt="icon"></span> </p>
+                  </div>
+                  <div class="img-box-right">
+                     <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
+                  </div>
+               </div>
+               <div class="flex-chat-box-right">
+                  <div class="big-box">
+                     <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia
+                        magnam
+                        quis dolor dolorum quae consectetur dignissimos provident
+                     </h5>
+                     <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
+                              alt="icon"></span> </p>
+                  </div>
+                  <div class="img-box-right">
+                     <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
+                  </div>
+               </div>
+               <div class="flex-chat-box-right">
+                  <div class="big-box">
+                     <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia
+                        magnam
+                        quis dolor dolorum quae consectetur dignissimos provident
+                     </h5>
+                     <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
+                              alt="icon"></span> </p>
+                  </div>
+                  <div class="img-box-right">
+                     <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
+                  </div>
+               </div>
+            </div>
+            <!-- Send bar component -->
+            <div>
+               <div class="send-box">
+                  <form class="flex-send">
+                     <div>
+                        <a href="#"><img class="fa fa-search" src="./icons/attach.png" alt="icon"></a>
+                        <a href="#"><img class="fa fa-search" src="./icons/emoji.png" alt="icon"></a>
+                        <input class="normal" name="text" type="text" placeholder="Type a message ...">
+                     </div>
+                     <div>
+                        <a href="#"><img class="fa fa-search" src="./icons/send.png" alt="icon"></a>
+                     </div>
                   </form>
                </div>
-               <hr class="hr-search">
-               <div class="flex-text">
-                  <h3>Recent Talks</h3>
-                  <h3>All <span><a href="#"><img class="arrow" src="./icons/chevron-down.png" alt="arrow" /></a></span></h3>
-               </div>
-               <!-- Contacts list component -->
-               <div class="contact-list-container">
-                  <div class="scroller">
-                     <div class="flex-user">
-                        <div class="col-user">
-                           <div class="user-avatar-bubble -large -online-bubble online">
-                              <img class="user-avatar" src="./images/user1.jpg" alt="user-avatar" />
-                           </div>
-                        </div>
-                        <div class="text-box">
-                           <h4>Hero Alom</h4>
-                           <h4>Can you please send me</h4>
-                           <p>02:19 pm</p>
-                        </div>
-                     </div>
-                     <div class="flex-user">
-                        <div class="col-user">
-                           <div class="user-avatar-bubble -large -online-bubble out">
-                              <img class="user-avatar" src="./images/user2.jpg" alt="user-avatar" />
-                           </div>
-                        </div>
-                        <div class="text-box">
-                           <h4>Kevin Peterson</h4>
-                           <h4>Can you please send me</h4>
-                           <p>02:19 pm</p>
-                        </div>
-                     </div>
-                     <div class="flex-user active-chat">
-                        <div class="col-user">
-                           <div class="user-avatar-bubble -large -online-bubble online">
-                              <img class="user-avatar" src="./images/user3.jpg" alt="user-avatar" />
-                           </div>
-                        </div>
-                        <div class="text-box">
-                           <h4>Jason Roy</h4>
-                           <h4>Can you please send me</h4>
-                           <p>02:19 pm</p>
-                        </div>
-                     </div>
-                     <div class="flex-user">
-                        <div class="col-user">
-                           <div class="user-avatar-bubble -large -online-bubble orange">
-                              <img class="user-avatar" src="./images/user4.jpg" alt="user-avatar" />
-                           </div>
-                        </div>
-                        <div class="text-box">
-                           <h4>Peterson song</h4>
-                           <h4>Can you please send me</h4>
-                           <p>02:19 pm</p>
-                        </div>
-                     </div>
-                     <div class="flex-user">
-                        <div class="col-user">
-                           <div class="user-avatar-bubble -large -online-bubble busy">
-                              <img class="user-avatar" src="./images/user5.jpg" alt="user-avatar" />
-                           </div>
-                        </div>
-                        <div class="text-box">
-                           <h4>Kevin Robat</h4>
-                           <h4>Can you please send me</h4>
-                           <p>02:19 pm</p>
-                        </div>
-                     </div>
-                     <div class="flex-user">
-                        <div class="col-user">
-                           <div class="user-avatar-bubble -large -online-bubble online">
-                              <img class="user-avatar" src="./images/user6.jpg" alt="user-avatar" />
-                           </div>
-                        </div>
-                        <div class="text-box">
-                           <h4>Lisa Romi</h4>
-                           <h4>Can you please send me</h4>
-                           <p>02:19 pm</p>
-                        </div>
-                     </div>
-                     <div class="flex-user">
-                        <div class="col-user">
-                           <div class="user-avatar-bubble -large -online-bubble online">
-                              <img class="user-avatar" src="./images/user7.jpg" alt="user-avatar" />
-                           </div>
-                        </div>
-                        <div class="text-box">
-                           <h4>Hero Alom</h4>
-                           <h4>Can you please send me</h4>
-                           <p>02:19 pm</p>
-                        </div>
-                     </div>
-                     <div class="flex-user">
-                        <div class="col-user">
-                           <div class="user-avatar-bubble -large -online-bubble online">
-                              <img class="user-avatar" src="./images/user8.jpg" alt="user-avatar" />
-                           </div>
-                        </div>
-                        <div class="text-box">
-                           <h4>Hero Alom</h4>
-                           <h4>Can you please send me</h4>
-                           <p>02:19 pm</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- Chat List component -->
-         <div class="col-1">
-            <div class="container-chat ">
-               <div class="flex-info-nav">
-                  <img class="user-avatar" src="./images/user3.jpg" alt="user-avatar">
-                  <h3 class="user-name">Jason Roy</h3>
-               </div>
-               <div class="scorller-chat">
-                  <div class="flex-chat-box">
-                     <div class="img-box">
-                        <img class="user-avatar" src="./images/user3.jpg" alt="user-avatar">
-                     </div>
-                     <div class="big-box">
-                        <h5 class="chat-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam quis
-                           dolor dolorum quae consectetur dignissimos provident
-                        </h5>
-                        <p class="time">10 min ago <span><img class="check-icon" src="./icons/check.png" alt="icon"></span></p>
-                     </div>
-                  </div>
-                  <div class="flex-chat-box-right">
-                     <div class="big-box">
-                        <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam
-                           quis dolor dolorum quae consectetur dignissimos provident
-                        </h5>
-                        <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
-                           alt="icon"></span> </p>
-                     </div>
-                     <div class="img-box-right">
-                        <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
-                     </div>
-                  </div>
-                  <div class="flex-chat-box-right">
-                     <div class="big-box">
-                        <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam
-                           quis dolor dolorum quae consectetur dignissimos provident
-                        </h5>
-                        <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
-                           alt="icon"></span> </p>
-                     </div>
-                     <div class="img-box-right">
-                        <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
-                     </div>
-                  </div>
-                  <div class="flex-chat-box">
-                     <div class="img-box">
-                        <img class="user-avatar" src="./images/user3.jpg" alt="user-avatar">
-                     </div>
-                     <div class="big-box">
-                        <h5 class="chat-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam quis
-                           dolor dolorum quae consectetur dignissimos provident
-                        </h5>
-                        <p class="time">10 min ago <span><img class="check-icon" src="./icons/check.png" alt="icon"></span></p>
-                     </div>
-                  </div>
-                  <div class="flex-chat-box-right">
-                     <div class="big-box">
-                        <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam
-                           quis dolor dolorum quae consectetur dignissimos provident
-                        </h5>
-                        <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
-                           alt="icon"></span> </p>
-                     </div>
-                     <div class="img-box-right">
-                        <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
-                     </div>
-                  </div>
-                  <div class="flex-chat-box-right">
-                     <div class="big-box">
-                        <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam
-                           quis dolor dolorum quae consectetur dignissimos provident
-                        </h5>
-                        <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
-                           alt="icon"></span> </p>
-                     </div>
-                     <div class="img-box-right">
-                        <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
-                     </div>
-                  </div>
-                  <div class="flex-chat-box-right">
-                     <div class="big-box">
-                        <h5 class="chat-box-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, mollitia magnam
-                           quis dolor dolorum quae consectetur dignissimos provident
-                        </h5>
-                        <p class="time">answered by bot 10 min ago <span><img class="check-icon" src="./icons/check.png"
-                           alt="icon"></span> </p>
-                     </div>
-                     <div class="img-box-right">
-                        <img class="user-avatar" src="./images/user.jpg" alt="user-avatar">
-                     </div>
-                  </div>
-               </div>
-               <!-- Send bar component -->
-               <div>
-                  <div class="send-box">
-                     <form class="flex-send">
-                        <div>
-                           <a href="#"><img class="fa fa-search" src="./icons/attach.png" alt="icon"></a>
-                           <a href="#"><img class="fa fa-search" src="./icons/emoji.png" alt="icon"></a>
-                           <input class="normal" name="text" type="text" placeholder="Type a message ...">
-                        </div>
-                        <div>
-                           <a href="#"><img class="fa fa-search" src="./icons/send.png" alt="icon"></a>
-                        </div>
-                     </form>
-                  </div>
-               </div>
             </div>
          </div>
       </div>
-   </body>
+   </div>
+</body>
+
 </html>
