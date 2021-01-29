@@ -34,7 +34,8 @@ Reference base <br>
 - Flexbox
 - Media query
 - Box shadow
-- CSS variables
+- ~~CSS variables~~
+- Implementing sass
 - Transition
 - Scrollbar div
 
