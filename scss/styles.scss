@@ -21,8 +21,7 @@ header {
 }
 .nav__links {
   list-style: none;
-  display: flex;
-  align-items: center;
+  @include flexCenter;
   li {
     padding: 0 10px;
     a {
@@ -217,8 +216,7 @@ h4 {
   display: flex;
 }
 .flex-info-nav {
-  display: flex;
-  align-items: center;
+  @include flexCenter;
   padding: 10px;
   border-bottom: 2px solid $grey;
 }
